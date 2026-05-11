@@ -18,10 +18,6 @@ impl MessageHandler<UserCreatedEventMessage> for UserCreatedHandler {
 
         Ok(())
     }
-
-    fn get_handler_action(&self) -> String {
-        "user_created".to_owned()
-    }
 }
 
 fn main() {
